@@ -18,3 +18,6 @@ Example: RunnableSequence : Runs steps in order, RunnableParallel: Runs multiple
 
 --Runnable Branch: It is a control flow components in Langchain that allows you to conditionally route input data to different chains or runnables based on custom logic.
 It functions like if/elif/else blocks for chains - where you define a set of condition functions, each associated with a runnable. The first matching condition is executed. If no condition matches, a default runnable is used(if provided).
+
+
+--LCEL(Langchain expression language)- It is nothing but a pipe -| operator used in place of Runnable Sequence to make sequenctial chain more easily.
